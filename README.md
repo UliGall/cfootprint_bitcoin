@@ -1,7 +1,5 @@
 # The Carbon Footprint of Bitcoin
 ###### Christian Stoll, Lena Klaaßen, Ulrich Gallersdörfer 
-#
-___
 
 
 ## Overview
@@ -11,7 +9,7 @@ This project provides additional information (source code, database scheme) for 
 
 ## SlushPool
 ### Overview
-You can check the model [here](https://github.com/UliGall/cfootprint_bitcoin/SlushPool/UML.pdf).
+You can check the model [here](https://github.com/UliGall/cfootprint_bitcoin/blob/master/SlushPool/UML.pdf).
 #### Prerequisites
 
 
