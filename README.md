@@ -14,25 +14,25 @@ This tool crawls the hash rate per location and hash rate distribution data from
 
 #### Installation
 - Install the Google GSON library from [here](https://search.maven.org/remotecontent?filepath=com/google/code/gson/gson/2.8.5/gson-2.8.5.jar)
-	```sh
-	cd /cfootprint_bitcoin/SlushPool/
-	```
-	```sh
-	wget -O gson-2.8.5.jar https://search.maven.org/remotecontent?filepath=com/google/code/gson/gson/2.8.5/gson-2.8.5.jar
-	```
+```sh
+cd /cfootprint_bitcoin/SlushPool/
+```
+```sh
+wget -O gson-2.8.5.jar https://search.maven.org/remotecontent?filepath=com/google/code/gson/gson/2.8.5/gson-2.8.5.jar
+```
 - Compile files
-	```sh
-	javac -cp gson-2.8.5.jar src/model/distribution/*.java src/model/location/*.java src/controller/*.java
-	```
+```sh
+javac -cp gson-2.8.5.jar src/model/distribution/*.java src/model/location/*.java src/controller/*.java
+```
 
 #### Execution
 
-	```sh
-	cd src/
-	```
-	```sh
-	java -cp ../gson-2.8.5.jar:. controller.App
-	```
+```sh
+cd src/
+```
+```sh
+java -cp ../gson-2.8.5.jar:. controller.App
+```
 
 
 
